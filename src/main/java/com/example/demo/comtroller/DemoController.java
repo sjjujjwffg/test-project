@@ -15,6 +15,6 @@ public class DemoController {
 
     @RequestMapping("/api/view")
     public Object index(){
-        return "Tested by time："+new Date();
+        return "abc Tested by time："+new Date();
     }
 }
